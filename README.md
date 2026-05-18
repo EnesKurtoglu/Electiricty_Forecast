@@ -27,7 +27,7 @@ electricity_forecast/
 └── requirements.txt
 ```
 
-Girdi: [64, 168, 1]
+Girdi: [64, 168, 1] [batch_size, lookback, features]
          ↓
    ┌─────────────┐
    │  LSTM       │  Layer 1: 128 nöron
